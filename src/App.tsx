@@ -5,6 +5,7 @@ import CategoryPage from './pages/CategoryPage';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsAndConditions from './pages/TermsAndConditions';
 import Disclaimer from './pages/Disclaimer';
+import DeleteAccount from './pages/DeleteAccount'; // NEW
 import NotFound from './pages/NotFound';
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
         <Route path="/disclaimer" element={<Disclaimer />} />
+        <Route path="/delete-account" element={<DeleteAccount />} /> {/* NEW */}
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

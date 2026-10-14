@@ -174,6 +174,9 @@ export default function Footer() {
             <Link to="/terms-and-conditions" className="text-xs text-brand-text hover:text-primary transition-colors">Terms & Conditions</Link>
             <span className="text-brand-border">|</span>
             <Link to="/disclaimer" className="text-xs text-brand-text hover:text-primary transition-colors">Disclaimer</Link>
+            {/* NEW: Delete Account link */}
+            <span className="text-brand-border">|</span>
+            <Link to="/delete-account" className="text-xs text-brand-text hover:text-primary transition-colors">Delete Account</Link>
           </div>
           <div className="flex items-center gap-2">
             {/* Payment icons */}
